@@ -1,0 +1,71 @@
+Welcome to the XWin X Server
+Vendor: The Cygwin/X Project
+Release: 1.21.1.4
+OS: CYGWIN_NT-10.0-19043-WOW64 DESKTOP-VRV126Q 3.3.6-341.i686 2022-09-05 11:11 UTC i686
+OS: Windows 10  [Windows NT 10.0 build 19043] x86-on-x64
+Package: version 21.1.4-2 built 2022-09-21
+
+XWin was started with the following command line:
+
+XWin -listen tcp -multiwindow -displayID :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1920 h 1080
+[  3148.000] (II) xorg.conf is not supported
+[  3148.000] (II) See http://x.cygwin.com/docs/faq/cygwin-x-faq.html for more information
+[  3148.000] winUpdateDpi - primary monitor native DPI x 96 y 96
+[  3148.031] LoadPreferences: /home/HYH/.XWinrc not found
+[  3148.031] LoadPreferences: Loading /etc/X11/system.XWinrc
+[  3148.031] LoadPreferences: Done parsing the configuration file...
+[  3148.046] winDetectSupportedEngines - RemoteSession: no
+[  3148.281] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[  3148.296] winDetectSupportedEngines - Returning, supported engines 00000005
+[  3148.296] winSetEngine - Multi Window or Rootless => ShadowGDI
+[  3148.296] winScreenInit - Using Windows display depth of 32 bits per pixel
+[  3148.343] winAllocateFBShadowGDI - Creating DIB with width: 1920 height: 1080 depth: 32
+[  3148.343] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[  3148.343] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[  3148.343] MIT-SHM extension disabled due to lack of kernel support
+[  3148.343] XFree86-Bigfont extension local-client optimization disabled due to lack of shared memory support in the kernel
+[  3148.359] glWinSelectGLimplementation: Loaded 'cygnativeGLthunk.dll'
+[  3148.515] (II) AIGLX: Testing pixelFormatIndex 5
+[  3148.562] GL_VERSION:     4.6.0 NVIDIA 526.98
+[  3148.562] GL_VENDOR:      NVIDIA Corporation
+[  3148.562] GL_RENDERER:    NVIDIA GeForce GTX 950M/PCIe/SSE2
+[  3148.562] (II) GLX: enabled GLX_SGI_make_current_read
+[  3148.562] (II) GLX: enabled GLX_SGI_swap_control
+[  3148.562] (II) GLX: enabled GLX_MESA_swap_control
+[  3148.562] (II) GLX: enabled GLX_SGIX_pbuffer
+[  3148.562] (II) GLX: enabled GLX_ARB_multisample
+[  3148.562] (II) GLX: enabled GLX_SGIS_multisample
+[  3148.562] (II) GLX: enabled GLX_ARB_fbconfig_float
+[  3148.562] (II) GLX: enabled GLX_EXT_fbconfig_packed_float
+[  3148.562] (II) GLX: enabled GLX_ARB_create_context
+[  3148.562] (II) GLX: enabled GLX_ARB_create_context_profile
+[  3148.562] (II) GLX: enabled GLX_ARB_create_context_robustness
+[  3148.562] (II) GLX: enabled GLX_EXT_create_context_es2_profile
+[  3148.562] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[  3148.562] (II) 516 pixel formats reported by wglGetPixelFormatAttribivARB
+[  3148.593] (II) 480 fbConfigs
+[  3148.593] (II) ignored pixel formats: 0 not OpenGL, 0 unknown pixel type, 36 unaccelerated
+[  3148.593] (II) GLX: Initialized Win32 native WGL GL provider for screen 0
+[  3151.015] winPointerWarpCursor - Discarding first warp: 960 540
+[  3151.015] (--) 3 mouse buttons found
+[  3151.015] (--) Setting autorepeat to delay=500, rate=31
+[  3151.015] (--) Windows keyboard layout: "00000804" (00000804) "Chinese (Simplified) - US Keyboard", type 4
+[  3151.015] (--) Found matching XKB configuration "Chinese (Simplified)"
+[  3151.015] (--) Model = "pc105" Layout = "cn" Variant = "none" Options = "none"
+[  3151.015] Rules = "base" Model = "pc105" Layout = "cn" Variant = "none" Options = "none"
+[  3151.234] winInitMultiWindowWM - DISPLAY=:0.0
+[  3151.234] winMultiWindowXMsgProc - DISPLAY=:0.0
+[  3151.281] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[  3151.281] winProcEstablishConnection - winInitClipboard returned.
+[  3151.281] winClipboardThreadProc - DISPLAY=:0.0
+[  3151.281] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[  3151.296] Using Composite redirection
+[  3151.312] winClipboardProc - xcb_connect () returned and successfully opened the display.
+[  3281.875] OS has icon alpha channel support: yes
+[  4766.671] executing 'cygstart http://x.cygwin.com/docs/ug/cygwin-x-ug.html', pid 1157
+[  5238.593] SetupSysMenu: GetSystemMenu() failed for HWND 0xd08f2
+[  5263.921] IsOverrideRedirect: Failed to get window attributes
+[  5263.921] IsOverrideRedirect: Failed to get window attributes

@@ -1,0 +1,73 @@
+Welcome to the XWin X Server
+Vendor: The Cygwin/X Project
+Release: 1.21.1.4
+OS: CYGWIN_NT-10.0-19043-WOW64 DESKTOP-VRV126Q 3.3.6-341.i686 2022-09-05 11:11 UTC i686
+OS: Windows 10  [Windows NT 10.0 build 19043] x86-on-x64
+Package: version 21.1.4-2 built 2022-09-21
+
+XWin was started with the following command line:
+
+XWin -listen tcp -multiwindow -displayID :0 
+
+ddxProcessArgument - Initializing default screens
+winInitializeScreenDefaults - primary monitor w 1920 h 1080
+[  2729.781] (II) xorg.conf is not supported
+[  2729.781] (II) See http://x.cygwin.com/docs/faq/cygwin-x-faq.html for more information
+[  2729.781] winUpdateDpi - primary monitor native DPI x 96 y 96
+[  2729.796] LoadPreferences: /home/HYH/.XWinrc not found
+[  2729.796] LoadPreferences: Loading /etc/X11/system.XWinrc
+[  2729.796] LoadPreferences: Done parsing the configuration file...
+[  2729.796] winDetectSupportedEngines - RemoteSession: no
+[  2730.046] winDetectSupportedEngines - DirectDraw4 installed, allowing ShadowDDNL
+[  2730.062] winDetectSupportedEngines - Returning, supported engines 00000005
+[  2730.062] winSetEngine - Multi Window or Rootless => ShadowGDI
+[  2730.062] winScreenInit - Using Windows display depth of 32 bits per pixel
+[  2730.109] winAllocateFBShadowGDI - Creating DIB with width: 1920 height: 1080 depth: 32
+[  2730.109] winFinishScreenInitFB - Masks: 00ff0000 0000ff00 000000ff
+[  2730.109] winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+[  2730.109] MIT-SHM extension disabled due to lack of kernel support
+[  2730.109] XFree86-Bigfont extension local-client optimization disabled due to lack of shared memory support in the kernel
+[  2730.109] glWinSelectGLimplementation: Loaded 'cygnativeGLthunk.dll'
+[  2730.234] (II) AIGLX: Testing pixelFormatIndex 5
+[  2730.281] GL_VERSION:     4.6.0 NVIDIA 526.98
+[  2730.281] GL_VENDOR:      NVIDIA Corporation
+[  2730.281] GL_RENDERER:    NVIDIA GeForce GTX 950M/PCIe/SSE2
+[  2730.281] (II) GLX: enabled GLX_SGI_make_current_read
+[  2730.281] (II) GLX: enabled GLX_SGI_swap_control
+[  2730.281] (II) GLX: enabled GLX_MESA_swap_control
+[  2730.281] (II) GLX: enabled GLX_SGIX_pbuffer
+[  2730.281] (II) GLX: enabled GLX_ARB_multisample
+[  2730.281] (II) GLX: enabled GLX_SGIS_multisample
+[  2730.281] (II) GLX: enabled GLX_ARB_fbconfig_float
+[  2730.281] (II) GLX: enabled GLX_EXT_fbconfig_packed_float
+[  2730.281] (II) GLX: enabled GLX_ARB_create_context
+[  2730.281] (II) GLX: enabled GLX_ARB_create_context_profile
+[  2730.281] (II) GLX: enabled GLX_ARB_create_context_robustness
+[  2730.281] (II) GLX: enabled GLX_EXT_create_context_es2_profile
+[  2730.281] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[  2730.281] (II) 516 pixel formats reported by wglGetPixelFormatAttribivARB
+[  2730.343] (II) 480 fbConfigs
+[  2730.343] (II) ignored pixel formats: 0 not OpenGL, 0 unknown pixel type, 36 unaccelerated
+[  2730.343] (II) GLX: Initialized Win32 native WGL GL provider for screen 0
+[  2730.703] winPointerWarpCursor - Discarding first warp: 960 540
+[  2730.703] (--) 3 mouse buttons found
+[  2730.703] (--) Setting autorepeat to delay=500, rate=31
+[  2730.703] (--) Windows keyboard layout: "00000804" (00000804) "Chinese (Simplified) - US Keyboard", type 4
+[  2730.703] (--) Found matching XKB configuration "Chinese (Simplified)"
+[  2730.703] (--) Model = "pc105" Layout = "cn" Variant = "none" Options = "none"
+[  2730.703] Rules = "base" Model = "pc105" Layout = "cn" Variant = "none" Options = "none"
+[  2730.937] winInitMultiWindowWM - DISPLAY=:0.0
+[  2730.937] winMultiWindowXMsgProc - DISPLAY=:0.0
+[  2730.984] winInitMultiWindowWM - xcb_connect () returned and successfully opened the display.
+[  2730.984] winProcEstablishConnection - winInitClipboard returned.
+[  2730.984] winClipboardThreadProc - DISPLAY=:0.0
+[  2731.000] winMultiWindowXMsgProc - xcb_connect() returned and successfully opened the display.
+[  2731.000] Using Composite redirection
+[  2731.046] winClipboardProc - xcb_connect () returned and successfully opened the display.
+[  2733.625] executing 'cygstart http://x.cygwin.com/docs/ug/cygwin-x-ug.html', pid 410
+[  2770.406] OS has icon alpha channel support: yes
+[  2926.015] winDeinitMultiWindowWM - Noting shutdown in progress
+[  2926.015] winClipboardProc - winClipboardFlushWindowsMessageQueue trapped WM_QUIT message, exiting main loop.
+[  2926.015] winMultiWindowXMsgProc - Fatal error 1 on xcb connection
+[  2926.093] winDeinitMultiWindowWM - Noting shutdown in progress
+[  2926.093] (II) Server terminated successfully (0). Closing log file.

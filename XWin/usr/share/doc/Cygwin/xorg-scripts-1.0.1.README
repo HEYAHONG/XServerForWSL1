@@ -1,0 +1,58 @@
+xorg-scripts
+------------------------------------------
+Xorg miscellaneous scripts
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.7-1.7.9-1
+  cygport-0.1.0-1
+  gawk-3.1.5-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+  xorg-util-macros-1.0.1-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://ftp.x.org/pub/X11R7.0/src/everything/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xorg-scripts-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xorg-scripts-1.0.1-X.cygport all
+
+This will create:
+  /usr/src/xorg-scripts-1.0.1-X-src.tar.bz2
+  /usr/src/xorg-scripts-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/fontname.sh
+  /usr/bin/fontprop.sh
+  /usr/bin/xauth_switch_to_sun-des-1
+  /usr/bin/xon
+  /usr/share/doc/Cygwin/xorg-scripts-1.0.1.README
+  /usr/share/doc/xorg-scripts-1.0.1/COPYING
+  /usr/share/doc/xorg-scripts-1.0.1/ChangeLog
+  /usr/share/man/man1/xon.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
