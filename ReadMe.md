@@ -9,7 +9,15 @@
 - 无需在WSL中运行X服务。
 - 利用TCP端口（6000）提供服务,故需要注意公网暴露的问题。
 
-# 使用
+# 常用脚本
+
+注意:使用脚本将会对系统进行修改,需要对某些操作具有一定了解。
+
+- [setup_xwin.bat](setup_xwin.bat):在windows下使用,安装XWin,添加注册表启动项。
+- [remove_xwin.bat](remove_xwin.bat)：在windows下使用,移除XWin,移除注册表启动项
+- [install_desktop_for_ubuntu22.04.sh](install_desktop_for_ubuntu22.04.sh):在WSL中使用，为ubuntu22.04设置桌面环境,需直接执行,不可使用sudo。主要安装中文字体,fcitx输入法等。注意:本脚本通过~/.bashrc实现环境变量的自动设置与输入法自启,可能会影响wsl启动时的输出。
+
+# 使用（测试）
 
 ## 启动X服务
 
